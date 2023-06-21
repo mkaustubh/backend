@@ -11,8 +11,8 @@ const port = 5000
 app.use(express.json());
 app.use(cors())
 //Available routes
-app.use('/api/auth',require('./routes/auth'));
-app.use('/api/adminAuth',require('./routes/adminAuth'));
+app.use('/api/auth',require('./Routes/auth'));
+app.use('/api/adminAuth',require('./Routes/adminAuth'));
 app.use('/api/playlist',require('./Routes/playlist'));
 app.use('/api/oneshotvideo',require('./Routes/oneshotvideo'));
 app.use('/api/animatedvideo',require('./Routes/animatedvideo'));
